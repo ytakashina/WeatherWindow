@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ff3cf965ea2dcdf4aab6926b23c334db
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - WeatherFetcher: {instanceID: 0}
+  - WindowMaterial: {instanceID: 0}
+  - TextureClearDay: {instanceID: 0}
+  - TextureCloudsDay: {instanceID: 0}
+  - TextureRainDay: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
