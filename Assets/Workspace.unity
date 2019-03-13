@@ -150,6 +150,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -162,17 +166,22 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 23946484000192472, guid: 006141f03d99a1c44b2a0661e7824dcc,
+        type: 2}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.29
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.343
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
       propertyPath: m_LocalRotation.x
@@ -180,7 +189,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
       propertyPath: m_LocalRotation.z
@@ -188,12 +197,66 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
       propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
+      propertyPath: m_LocalScale.x
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221694125723382, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114221450905555270, guid: 006141f03d99a1c44b2a0661e7824dcc,
+        type: 2}
+      propertyPath: RequestInterval
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114571792320550310, guid: 006141f03d99a1c44b2a0661e7824dcc,
+        type: 2}
+      propertyPath: TextureClearDay
+      value: 
+      objectReference: {fileID: 2800000, guid: c5574c9446e18e84c8c3c92dadac398b, type: 3}
+    - target: {fileID: 114571792320550310, guid: 006141f03d99a1c44b2a0661e7824dcc,
+        type: 2}
+      propertyPath: TextureCloudsDay
+      value: 
+      objectReference: {fileID: 2800000, guid: 2696626163465a043b37bd99ded0f456, type: 3}
+    - target: {fileID: 114571792320550310, guid: 006141f03d99a1c44b2a0661e7824dcc,
+        type: 2}
+      propertyPath: TextureRainDay
+      value: 
+      objectReference: {fileID: 2800000, guid: 2696626163465a043b37bd99ded0f456, type: 3}
+    - target: {fileID: 4959326274378516, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039266550401658, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23946484000192472, guid: 006141f03d99a1c44b2a0661e7824dcc,
+        type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: bf0bf1f014d38a145a158c30327d1756, type: 2}
+    - target: {fileID: 114571792320550310, guid: 006141f03d99a1c44b2a0661e7824dcc,
+        type: 2}
+      propertyPath: TextureRaindrop
+      value: 
+      objectReference: {fileID: 2800000, guid: 71ee3adcc48482a49b91ccbb7330998c, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 006141f03d99a1c44b2a0661e7824dcc, type: 2}
   m_IsPrefabParent: 0
@@ -281,7 +344,7 @@ Transform:
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2038175589
 GameObject:
@@ -346,5 +409,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}

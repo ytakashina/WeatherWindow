@@ -9,6 +9,7 @@ public class WindowController : MonoBehaviour
     public Texture TextureClearDay;
     public Texture TextureCloudsDay;
     public Texture TextureRainDay;
+    public Texture TextureRaindrop;
 
     // Use this for initialization
     void Start()
@@ -23,16 +24,19 @@ public class WindowController : MonoBehaviour
         {
             case "clear":
                 GlassMaterial.SetTexture("_MainTex", TextureClearDay);
+                GlassMaterial.SetTexture("_MetallicGlossMap", null);
                 break;
             case "clouds":
             case "atmosphere":
                 GlassMaterial.SetTexture("_MainTex", TextureCloudsDay);
+                GlassMaterial.SetTexture("_MetallicGlossMap", null);
                 break;
             case "rain":
             case "snow":
             case "drizzle":
             case "thunderstorm":
                 GlassMaterial.SetTexture("_MainTex", TextureRainDay);
+                GlassMaterial.SetTexture("_MetallicGlossMap", TextureRaindrop);
                 break;
         }
     }
